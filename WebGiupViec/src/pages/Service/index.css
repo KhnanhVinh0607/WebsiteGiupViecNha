@@ -1,0 +1,202 @@
+.step_form{
+  width: 100%;
+
+}
+.ant-steps-item-title{
+  font-size: 30px;
+}
+.ant-steps-item-title{
+  font-size: 30px;
+}
+
+/* CSS step form header */
+.step_form_header{
+  display: flex;
+  margin: 60px;
+  
+}
+
+.step_form_header_text{
+  width: 50%;
+  height: 450px;
+}
+.step_form_header_text1{
+  font-size: 28px;
+  color: #fe8228;
+  margin-top: 50px;
+  margin-left: 50px;
+}
+.step_form_header_text2{
+  color: var(--text-color);
+  width: 600px;
+  margin-left: 50px;
+  margin-top: 30px;
+  font-size: 20px;
+  font-weight: 350;
+}
+.slide__service-item-img{
+  width: 700px;
+  height: auto;
+  border-radius: 30px;
+}
+/* CSS step form container */
+
+.step_form_container{
+  margin: 0px 144px 50px 110px;
+  border-top: 1px solid #333;
+}
+.step_form_container_main{
+margin-top: 30px;
+}
+.step_form_container_text{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.step_form_container_text1{
+ color: #fe8228;
+ font-size: 30px;
+}
+/* step 1 */
+.select-form{
+  border-radius: 10px;
+  width: 100%;
+  height: 300px;
+  padding:  0px;
+  background-color: #f0f0f0;
+}
+.select-form-text{
+
+}
+.select-form-text1{
+  margin: 10px 0px;
+  color: #fe8228;
+  margin: 0px;
+  font-size: 26px;
+}
+.select-form-main{
+  margin: 20px 0px;
+  height: 100%;
+}
+.select-input{
+  height: 40px;
+  width: 50%;
+  color: #fe8228;
+}
+
+/* styles.css */
+.ant-select .ant-select-selector .ant-select-selection-placeholder {
+  color: #fe8228; /* Màu sắc của placeholder */
+  font-size: 20px;
+}
+/* Tùy chỉnh kiểu cho placeholder của Select */
+.ant-select .ant-select-selector .ant-select-placeholder {
+  color: orange; /* Màu của placeholder */
+  font-style: italic; /* Kiểu chữ */
+  font-size: 30px;
+}
+
+.custom-button {
+  background-color: #fe8228; /* Màu cam */
+  color: white; /* Màu chữ trắng */
+  border: none; /* Bỏ viền */
+  padding: 10px 20px; /* Khoảng cách bên trong */
+  font-size: 16px; /* Kích thước chữ */
+  cursor: pointer; /* Con trỏ chuột */
+}
+
+.custom-button:hover {
+  background-color: darkorange; /* Màu khi di chuột qua */
+}
+.custom-steps .ant-steps-item-title {
+  font-size: 30px !important; /* Kích thước chữ tiêu đề */
+  font-weight: bold; /* Đậm */
+  color: #fe8228; /* Màu chữ */
+}
+.custom-steps .ant-steps-item-icon {
+  background-color: #f0f0f0; /* Màu nền của biểu tượng */
+  border-radius: 50%; /* Hình tròn */
+  color: #1890ff; /* Màu biểu tượng */
+  line-height: 28px; /* Căn giữa biểu tượng */
+  width: 28px; /* Chiều rộng biểu tượng */
+  height: 28px; /* Chiều cao biểu tượng */
+  font-size: 16px; /* Kích thước chữ trong biểu tượng */
+}
+
+.custom-steps .ant-steps-item-icon.ant-steps-icon {
+  border: 2px solid #1890ff; /* Đường viền cho biểu tượng */
+}
+
+/* step 2 */
+.fav_employee{
+  width: 100%;
+  height: 300px;
+}
+.fav_employee_text{
+  display: flex;
+  justify-content: baseline;
+}
+.fav_employee_text1{
+  font-size: 26px;
+  color: #fe8228;
+}
+
+/* step3 content */
+.Date-place-form{
+  width: 100%;
+  height: 300px;
+  display: inline-block;
+  justify-content: baseline;
+}
+
+.Date-place-form-input{
+  width: 80%;
+  height: 120px;
+  display: inline-block;
+  justify-content: center;
+
+}
+.Date-place-form-input-text{
+  margin: 0px;
+  font-size: 26px;
+  color: #fe8228;
+}
+.Date-place-form-input-main{
+  width: 80%;
+
+}
+.Date-place-form-datepicker{
+    width: 100%;
+    height: 100px;
+}
+.Date-place-form-datepicker-text{
+  font-size: 26px;
+  margin: 0px;
+  color: #fe8228;
+}
+.Date-place-form-datepicker-text1{
+  margin: 0px;
+}
+
+/* step4 */
+.price-form{
+  width: 100%;
+  height: 300px;
+  display: inline-block;
+  justify-content: center;
+}
+.price-form-text{
+  width: 100%;
+  height: 100px;
+}
+.price-form-text1{
+  margin: 0px;
+  font-size: 26px;
+  color: #fe8228;
+}
+
+/* step5 */
+.order-form{
+  width: 100%;
+  height: 300px;
+}

@@ -1,0 +1,247 @@
+/* base CSS */
+:root{
+    --white-color: #fff;
+    --black-color: #000;
+    --text-color: #928c8c;
+
+}
+*{
+    box-sizing: inherit;
+}
+
+html {
+    font-size: 62,5%;
+    line-height: 1.6rem;
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box; 
+}
+
+.grid{
+    width: 1200px;
+    max-width:100%;
+    margin: 0 auto;
+}
+
+.grid__full-width{
+    width: 100%;
+}
+
+.grid__row{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+/* slider home */
+.sliderList{
+    width: 100%;
+    height: auto;
+    justify-content: center;
+    display: flex;
+}
+
+.sliderItem{
+    border: 1px solid rgb(175, 163, 163);
+    width: 100%;
+    height: auto;
+}
+
+
+/* slide service CSS */
+
+.noti__service{
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;;
+    font-size: 1.25rem;
+    color: #fe6433;
+    text-decoration: none;
+    font-weight: 300;
+}
+.slide__service{
+
+}
+
+.slide__service-list{
+    display: flex;
+    justify-content: space-between;
+}
+
+.slide__serive-item-name{
+    font-size: 20px;
+}
+
+.slide__serive-item-description{
+    font-weight: 400;
+    height: 150px;
+}
+.slide__serive-item-more{
+    text-decoration: underline;
+    font-weight: 400;
+}
+.slide__service-item-link{
+    color: var(--text-color); /* Màu sắc của link */
+    font-size: 22px ;
+}
+
+.slick-slider {
+    width: 100%; 
+    margin: 0 auto; 
+    list-style-type: none; 
+    padding: 0 100px; 
+}
+.slick-slide {
+    display: flex; 
+    justify-content: center;
+    padding: 10px;
+    width: 100vw;
+}
+
+.slick-slide img {
+    width: 100%; 
+    height: 180px; 
+}
+
+.slick-dots {
+    display: flex; 
+    justify-content: center; 
+    margin-top: 20px; 
+    list-style: none; 
+    padding: 0; 
+    left: -24px;
+}
+
+.slick-dots li {
+    margin: 0 5px; 
+}
+.slick-dots li button:before {
+    font-size: 12px;
+}
+.slick-dots button {
+    background: #ccc; 
+    border: none; 
+    border-radius: 50%; 
+    width: 10px; 
+    height: 10px; 
+    cursor: pointer; 
+}
+
+/* .slick-dots .slick-active button {
+    background: #6433   ; 
+} */
+
+.next-arrow, .prev-arrow {
+    font-size: 24px; 
+    color: black;
+    background: #6433   ; 
+    border-radius: 50%; 
+    width: 40px; 
+    height: 40px; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    top: 50%; 
+    transform: translateY(-50%); 
+}
+
+.next-arrow {
+    right: 60px; 
+}
+
+.prev-arrow {
+    left: 60px; 
+}
+
+/* procedure */
+.procedureTitle{
+    margin-top: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;;
+    font-size: 1.25rem;
+    color: #fe6433    ;
+    text-decoration: none;
+    font-weight: 300;
+}
+
+.procedureList{
+    list-style-type: none;
+    width: 100%; 
+    padding: 0 100px; 
+}
+
+.procedureItem {
+    display: flex;            
+    align-items: center;     
+    padding: 20px;           
+    margin-left: 200px;
+}
+
+.procedureImg {
+    flex: 0 0 auto;           
+}
+
+.procedureImg img {
+    width: 80%;              
+    height: auto;            
+    max-width: 400px;      
+    border: 1px solid #333;
+}
+
+.procedureDescription {
+    height: 100%;
+    width: 400px;     
+    margin: -40px;         
+}
+
+.stepName{
+    font-size: 1.5rem;
+}
+.stepText{
+    font-weight: 400;
+}
+
+/* startUse */
+
+.startList{
+     /* background-image: linear-gradient(0, #fe6433, #f53e2d) ; */
+     background-color: #fe6433;
+     height: 300px;
+     margin-top: 50px;
+}
+
+.startDes{
+    padding-top: 30px;
+    margin-left: 300px;
+    width: 600px;
+}
+.startName{
+    font-size: 2rem;
+    color: #fff;
+}
+.startDescription{
+    color: #fff;
+    font-weight: 400;
+    font-size: 1.2rem;
+}
+.startButton {
+    background-color: #fff; 
+    color: #fe6433;             
+    padding: 15px 32px;      
+    text-align: center;        
+    text-decoration: none;     
+    display: inline-block;     
+    font-size: 1.25rem;          
+    font-weight: 400;   
+    cursor: pointer;          
+    border: none;              
+    border-radius: 30px;       
+    transition: background-color 0.3s; 
+    margin: 20px 300px;
+}
+
+.startButton:hover {
+
+}

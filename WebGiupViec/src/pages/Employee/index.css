@@ -1,0 +1,233 @@
+.employee-page{
+    width: 100%;
+    
+}
+.employee-form{
+    width: 100%;
+    height: 700px;
+    display: flex;
+    justify-content: center;
+    background-color: rgb(238, 236, 233); /* Mã RGB */
+}
+.employee-form-text{
+    width: 570px;
+    margin-top: 200px;
+}
+.employee-form-text1{
+    font-size: 40px;
+    font-weight: 700;
+    color: #fe6433;
+    margin-bottom: 20px;
+    margin-left: 50px;
+}
+.employee-form-text2{
+    width: 450px;
+    font-size: 22px;
+    font-weight: 400;
+    color: #817b7b;
+    margin-top: 30px;
+    margin-left: 50px;
+}
+
+.employee-form-content{
+    width: 570px;
+    height: 100%;
+    position: relative;
+
+}
+.employee-form-content-input{
+    position: absolute;
+    width: 480px;
+    height: 95%;
+    background-color: #fff;
+}
+.employee-form-content-text{
+    font-size: 28px;
+    font-weight: 500;
+    color: #fe6433;
+    margin: 40px 50px 20px 40px
+}
+.employee-form-content-list{
+    list-style-type: none;
+}
+.employee-form-content-item {
+    margin-bottom: 25px; /* Khoảng cách giữa các mục */
+}
+.employee-form-content-item-select{
+    width: 90%;
+}
+label{
+    display: block; /* Đưa nhãn xuống dòng mới */
+    margin-bottom: 5px; /* Khoảng cách giữa nhãn và ô input */
+    font-size: 20px;
+}
+
+input[type="text"] {
+    width: 90%; /* Đặt chiều rộng ô input */
+    padding: 8px; /* Đệm trong ô input */
+    box-sizing: border-box; /* Bao gồm padding trong chiều rộng */
+}
+.employee-form-content-checkbox {
+    display: flex; /* Sử dụng flexbox để căn chỉnh */
+    align-items: center; /* Căn giữa theo chiều dọc */
+    margin-bottom: 15px; /* Khoảng cách giữa các mục */
+    margin-left: 35px;
+}
+.checkbox-input {
+    margin-right: 10px; /* Khoảng cách giữa checkbox và label */
+    cursor: pointer; /* Đổi con trỏ chuột khi di chuột qua checkbox */
+}
+.checkbox-label {
+    font-size: 18px; /* Kích thước chữ cho label */
+    color: #333; /* Màu chữ cho label */
+    line-height: 1.5; /* Đường cao dòng cho dễ đọc */
+    border-radius: 50%; 
+}
+
+.startButton1 {
+    width: 200px;
+    height: 40px;
+    margin-left: 50px;
+    margin-top: 10px;
+    background-color: #fe6433; 
+    color: #fff;                    
+    text-decoration: none;     
+    font-size: 1.25rem;          
+    font-weight: 400;   
+    cursor: pointer;          
+    border: none;              
+    border-radius: 30px;       
+    transition: background-color 0.3s; 
+}
+
+.startButton1:hover {
+
+}
+.employee-benefit{
+    width: 100%;
+    height: 700px;
+    margin-top: 100px;
+    display: grid;
+    justify-content: center;
+    
+}
+.employee-benefit-text{
+    font-size: 40px;
+    margin-bottom: 50px ;
+    font-weight: 700;
+    color: #fe6433;
+}
+.employee-benefit-container{
+    display: flex; /* Sử dụng Flexbox */
+    flex-direction: column; /* Sắp xếp theo chiều dọc */
+    justify-content: center; /* Căn giữa theo chiều dọc */
+}
+.employee-benefit-img{
+    width: 1050px;
+    height: 250px;
+}
+.employee-benefit-list{
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    margin-right: 0px;
+    padding: 0px;
+}
+.employee-benefit-item{
+    width: 240px;
+    height: 200px;
+    margin: 20px 34px 0px 0px;
+}
+.employee-benefit-item-icon{
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+.employee-benefit-item-text1{
+    font-weight: 700;
+    font-size: 22px;
+    margin-bottom: 15px ;
+}
+.employee-benefit-item-text2{
+    font-weight: 350;
+    font-size: 20px;
+}
+.employee-steps{
+    width: 100%;
+    height: 380px;
+    background-color: #F5F5F5;
+    display: grid;
+    justify-content: center;
+}
+.employee-steps-text{
+    margin-left: 30px;
+    margin-top: 60px;
+    width: 400px;
+    height: 50px;
+    font-size: 40px;
+    font-weight: 700;
+    color: #fe6433;
+}
+.employee-steps-list{
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 80px;
+}
+.employee-steps-item{
+    display: grid;
+    justify-content: center;
+    width: 250px;
+    height: 100px;
+    margin-right: 30px;
+}
+.employee-steps-text1{
+    color: #fe6433;
+    margin-left: 70px;
+    font-size: 24px;
+    font-weight: 700;
+}
+.employee-steps-text2{
+    font-size: 20px;
+    font-weight: 350;
+}
+.employee-cv{
+    width: 100%;
+    height: 400px;
+    display: grid;
+    justify-content: center;
+}
+.employee-cv-text{
+    margin-left: 100px;
+    margin-top: 50px;
+    font-size: 34px;
+    font-weight: 700;
+    color: #fe6433;
+}
+.employee-cv-list{
+    margin-left: 100px;
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    width: 1200px;
+    height: 250px;
+    margin-top: 20px;
+    padding: 0px;
+}
+.employee-cv-item{
+    width: 550px;
+    height: 250px;
+    margin-right: 50px;
+}
+.employee-cv-item-icon{
+    font-size: 30px;
+}
+.employee-cv-item-text1{
+    color: #fe6433;
+    font-weight: 700;
+    font-size: 28px;
+    margin: 15px 0px;
+}
+.employee-cv-item-text2{
+    font-size: 18px;
+    margin: 10px 0px;
+}
