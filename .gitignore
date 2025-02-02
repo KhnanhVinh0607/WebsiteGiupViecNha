@@ -1,0 +1,11 @@
+# Bỏ qua tất cả các tệp .log
+*.log
+
+# Bỏ qua thư mục node_modules
+node_modules/
+
+# Bỏ qua tệp nhạy cảm
+WebGiupViec - Backend/src/config/firebase/serviceAccountKey.json
+
+# Bỏ qua tất cả các tệp trong thư mục temp
+temp/
